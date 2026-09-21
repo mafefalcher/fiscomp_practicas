@@ -1,36 +1,42 @@
 # Prácticas de Física Computacional
 
-Este repositorio contiene las Prácticas 1 y 2 del curso.
+Repositorio con las Prácticas 1 y 2 del curso.
 
-## Estructura
+## Práctica 1 — Tipos de datos, funciones y archivos
 
-```text
-fiscomp/
-  constantes.py             # Constantes, incluido PI
-  precision_numerica.py     # Épsilon de máquina y error relativo
-  funciones_especiales.py   # factorial, seno, coseno, exponencial y ln
-  vectores.py               # VectorND (Práctica 1)
-  matrices.py               # Matrix (Práctica 2)
+| Archivo | Contenido |
+| --- | --- |
+| `recoleccion_datos.py` | Ejercicio 1: experimento de Millikan y reporte de cargas. |
+| `pi_leibniz.py` | Ejercicio 2: aproximación de π con la serie de Leibniz. |
+| `ejercicio4_errores.py` | Ejercicio 4: comparación de errores con `math`. |
+| `fiscomp/constantes.py` | Constantes, incluido `PI`. |
+| `fiscomp/precision_numerica.py` | Épsilon de máquina y error relativo. |
+| `fiscomp/funciones_especiales.py` | `factorial`, `seno`, `coseno`, `exponencial` y `ln`. |
+| `practicas/pruebas_practica_01.py` | Pruebas automáticas de la Práctica 1. |
 
-practicas/
-  pruebas_practica_01.py    # Pruebas automáticas de la Práctica 1
-  pruebas_practica_02.py    # Pruebas automáticas de la Práctica 2
-  recoleccion_datos.py      # Lanzador para probar el Ejercicio 1
-  reporte_recoleccion.txt
-  reporte_ejercicio4.txt
-
-recoleccion_datos.py        # Ejercicio 1: experimento de Millikan
-pi_leibniz.py               # Ejercicio 2: aproximación de pi
-ejercicio4_errores.py       # Ejercicio 4: comparación con math
-```
-
-## Ejecutar las pruebas
-
-Desde la raíz del repositorio:
+Ejecutar pruebas:
 
 ```powershell
 py -m practicas.pruebas_practica_01
+```
+
+## Práctica 2 — Programación orientada a objetos
+
+| Archivo | Contenido |
+| --- | --- |
+| `fiscomp/vectores.py` | Clase `VectorND` y sus operaciones. |
+| `fiscomp/matrices.py` | Clase `Matrix`: suma, resta y multiplicación. |
+| `practicas/pruebas_practica_02.py` | Pruebas automáticas de la Práctica 2. |
+
+Ejecutar pruebas:
+
+```powershell
 py -m practicas.pruebas_practica_02
 ```
 
-Ambos comandos deben terminar con `OK`.
+## Reportes generados
+
+- `practicas/reporte_recoleccion.txt`
+- `practicas/reporte_ejercicio4.txt`
+
+Ambas prácticas terminan con `OK` al ejecutar sus pruebas.
