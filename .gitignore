@@ -1,0 +1,6 @@
+# Archivos temporales generados por Python
+__pycache__/
+*.py[cod]
+
+# Configuración local de VS Code
+.vscode/
