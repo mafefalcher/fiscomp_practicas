@@ -1,42 +1,43 @@
 # Prácticas de Física Computacional
 
-Repositorio con las Prácticas 1 y 2 del curso.
+Repositorio organizado por práctica.
 
-## Práctica 1 — Tipos de datos, funciones y archivos
+```text
+practica_01/              # Tipos de datos, funciones y archivos
+practica_02/              # Programación orientada a objetos
+fiscomp_practica/         # Entrega anterior conservada sin modificar
+```
 
-| Archivo | Contenido |
-| --- | --- |
-| `recoleccion_datos.py` | Ejercicio 1: experimento de Millikan y reporte de cargas. |
-| `pi_leibniz.py` | Ejercicio 2: aproximación de π con la serie de Leibniz. |
-| `ejercicio4_errores.py` | Ejercicio 4: comparación de errores con `math`. |
-| `fiscomp/constantes.py` | Constantes, incluido `PI`. |
-| `fiscomp/precision_numerica.py` | Épsilon de máquina y error relativo. |
-| `fiscomp/funciones_especiales.py` | `factorial`, `seno`, `coseno`, `exponencial` y `ln`. |
-| `practicas/pruebas_practica_01.py` | Pruebas automáticas de la Práctica 1. |
+## Práctica 1
 
-Ejecutar pruebas:
+La carpeta `practica_01/` contiene:
+
+- `recoleccion_datos.py`: experimento de Millikan.
+- `pi_leibniz.py`: aproximación de π.
+- `ejercicio4_errores.py`: análisis de errores.
+- `fiscomp/`: constantes, precisión numérica y funciones especiales.
+- `practicas/`: pruebas y reportes de la práctica.
+
+Para ejecutar las pruebas:
 
 ```powershell
+cd practica_01
 py -m practicas.pruebas_practica_01
+cd ..
 ```
 
-## Práctica 2 — Programación orientada a objetos
+## Práctica 2
 
-| Archivo | Contenido |
-| --- | --- |
-| `fiscomp/vectores.py` | Clase `VectorND` y sus operaciones. |
-| `fiscomp/matrices.py` | Clase `Matrix`: suma, resta y multiplicación. |
-| `practicas/pruebas_practica_02.py` | Pruebas automáticas de la Práctica 2. |
+La carpeta `practica_02/` contiene:
 
-Ejecutar pruebas:
+- `fiscomp/vectores.py`: clase `VectorND`.
+- `fiscomp/matrices.py`: clase `Matrix`.
+- `practicas/pruebas_practica_02.py`: pruebas automáticas.
+
+Para ejecutar las pruebas:
 
 ```powershell
+cd practica_02
 py -m practicas.pruebas_practica_02
+cd ..
 ```
-
-## Reportes generados
-
-- `practicas/reporte_recoleccion.txt`
-- `practicas/reporte_ejercicio4.txt`
-
-Ambas prácticas terminan con `OK` al ejecutar sus pruebas.
