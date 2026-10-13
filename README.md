@@ -41,3 +41,7 @@ cd practica_02
 py -m practicas.pruebas_practica_02
 cd ..
 ```
+
+## Práctica 3
+
+## Práctica 4
