@@ -1,9 +1,6 @@
 """Álgebra lineal numérica, escrita desde cero con listas de listas.
 
-Ver unidades/09_algebra_lineal/notas.md para la teoría (normas, número de
-condición, sustitución hacia adelante y hacia atrás).
 
-Convenciones:
 
 - Una matriz es una lista de listas rectangular, un renglón por
   sublista: A[i][j] es el elemento del renglón i, columna j (índices
@@ -11,10 +8,7 @@ Convenciones:
   (fiscomp/matrices.py), pasen su atributo .data.
 - Un vector es una lista simple de números: x[i].
 
-Aquí vive lo que se reutiliza en el resto del tema: las sustituciones
-para matrices triangulares, la eliminación gaussiana (con y sin
-pivoteo), la descomposición LU con la inversa y el determinante, el
-método de Jacobi, y la matriz de prueba del libro.
+
 """
 
 from math import sqrt as raiz_cuadrada

@@ -5,16 +5,6 @@
 matrices.py
 -----------
 
-Este módulo define la clase Matrix para representar matrices y
-realizar operaciones básicas.
-
-Incluye:
-- Creación de matrices a partir de listas de listas.
-- Suma, resta y multiplicación (escalar y matricial).
-- Transpuesta.
-- Métodos auxiliares para acceder a filas y columnas.
-- La clase hija Identity, la matriz identidad de n x n.
-"""
 
 
 class Matrix:
