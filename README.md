@@ -1,6 +1,6 @@
 # Prácticas de Física Computacional
 
-Repositorio organizado por práctica.
+Repositorio organizado por prácticas.
 
 ```text
 practica_01/              # Tipos de datos, funciones y archivos
@@ -10,7 +10,7 @@ fiscomp_practica/         # Entrega anterior conservada sin modificar
 
 ## Práctica 1
 
-La carpeta `practica_01/` contiene:
+`practica_01/` contiene:
 
 - `recoleccion_datos.py`: experimento de Millikan.
 - `pi_leibniz.py`: aproximación de π.
@@ -28,7 +28,7 @@ cd ..
 
 ## Práctica 2
 
-La carpeta `practica_02/` contiene:
+ `practica_02/` contiene:
 
 - `fiscomp/vectores.py`: clase `VectorND`.
 - `fiscomp/matrices.py`: clase `Matrix`.
